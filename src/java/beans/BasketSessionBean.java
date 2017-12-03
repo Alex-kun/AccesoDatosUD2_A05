@@ -5,6 +5,7 @@
  */
 package beans;
 
+import entidades.Player;
 import entidades.Team;
 import javax.ejb.Stateless;
 import java.util.List;
@@ -33,4 +34,8 @@ public class BasketSessionBean {
             
             emf.createEntityManager().persist(t);
         }
+        
+        public void insertPlayer(Player player){
+        emf.createEntityManager().persist(player);
+    }
     }

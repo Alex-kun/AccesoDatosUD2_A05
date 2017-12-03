@@ -14,6 +14,13 @@
 <body>
 <h1>Player. Obtiene todos los Player con EJB </h1>
 <form  action="Servlet"  method="POST">Presiona  el botón para obtener los datos.
-<input  type="submit"  name="enviar"  value="Enviar" /></form>
+<input  type="submit"  name="enviar"  value="Enviar" />
+</form>
+
+
+<form  action="Insertar" method="POST">
+<input type="text" name="insert">
+<input  type="submit"  name="enviar"  value="Enviar" />
+</form>
 </body>
 </html>
